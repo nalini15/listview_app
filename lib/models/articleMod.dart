@@ -76,7 +76,7 @@ class Articles {
 
 class Author {
   String username;
-  Null bio;
+  String bio;
   String image;
   bool following;
   Author({this.username, this.bio, this.image, this.following});
